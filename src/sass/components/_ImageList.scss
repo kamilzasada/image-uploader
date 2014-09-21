@@ -1,0 +1,37 @@
+// ****************************************************************************
+//  _ImageList
+// ****************************************************************************
+.ImageList {
+    margin: 3rem 0 0;
+    padding: 0 0 3rem;
+    border-top: 1px solid $border-page-lead;
+    border-bottom: 1px solid $border-page-lead;
+}
+
+.ImageList-title {
+
+}
+
+.ImageList-hint {
+    font-size: .9rem;
+    color: $text-color-lighter;
+    margin: -1rem 0 0;
+}
+
+.ImageList-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ImageList-list-item {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 1rem;
+    overflow: hidden;
+    border: 2px solid $border-drop-area;
+    border-radius: 1rem;
+}
+
+// ****************************************************************************

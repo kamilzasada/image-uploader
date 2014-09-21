@@ -1,0 +1,44 @@
+// ****************************************************************************
+//  main
+// ****************************************************************************
+@import "config";
+
+@import "components/Main";
+@import "components/DropArea";
+@import "components/ImageList";
+
+* {
+    outline: none;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font: 1rem/1.4 "Open Sans", sans-serif;
+    color: $text-color;
+    background: $bg-page;
+    margin: 0;
+}
+
+button {
+    font: 1rem/1.4 "Open Sans", sans-serif;
+    color: $text-color-lighter;
+    width: 100%;
+    padding: 1rem;
+    background: $bg-button;
+    border: 0;
+    border-radius: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        background: $bg-button-hover;
+    }
+}
+
+#fileInput {
+    display: none;
+}
+
+// ****************************************************************************
